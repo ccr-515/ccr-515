@@ -1,0 +1,1 @@
+window.SUNO_PROMPTS=
