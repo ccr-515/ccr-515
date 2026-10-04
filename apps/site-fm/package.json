@@ -1,1 +1,1 @@
-{"name":"site-fm-studio","version":"1.0.0","private":true,"type":"module","engines":{"node":"22.x"},"dependencies":{"@vercel/blob":"2.8.0"},"scripts":{"build":"node --check api/generate.js && node --check public/app.js"}}
+{"name":"site-fm-studio","version":"1.0.1","private":true,"type":"module","engines":{"node":"22.x"},"dependencies":{"@vercel/blob":"2.8.0"},"scripts":{"build":"node --check api/generate.js && node --check public/app.js && node --check public/availability.js && node build.mjs"}}
