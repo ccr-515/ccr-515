@@ -1,0 +1,74 @@
+
+/* Simplified public funnel layered over the original studio. */
+:root{--simple-max:1180px}
+.sidebar{display:none!important}
+main{margin-left:0!important}
+.topbar{height:70px!important;padding:0 max(24px,calc((100vw - var(--simple-max))/2))!important}
+.content{max-width:var(--simple-max)!important;padding:0!important}
+.breadcrumb{font-size:0!important;color:var(--ink)!important}
+.breadcrumb:before{content:"SITE/FM";font-size:21px;font-weight:900;letter-spacing:-1.2px}
+.breadcrumb:after{content:"BY 515";font-size:7px;letter-spacing:1.4px;color:var(--muted);margin-left:9px}
+.breadcrumb span,.breadcrumb strong{display:none!important}
+.beta{font-size:8px!important}
+.hero{padding:74px 0 34px!important;display:block!important}
+.hero>div:first-child{max-width:820px}
+.hero h1{font-size:clamp(54px,7.2vw,96px)!important;line-height:.92!important;letter-spacing:-5px!important;margin:22px 0 26px!important}
+.hero p{font-size:15px!important;max-width:590px!important;line-height:1.7!important}
+.frequency{display:none!important}
+.composer{max-width:900px!important;margin-top:40px!important;padding:0!important}
+.composer-top{padding:22px 22px 0!important}
+.composer-top h2{font-size:13px!important}
+.composer-hint{display:none!important}
+textarea{font-size:19px!important;min-height:130px!important}
+.settings-left,.mood-row,.under-composer{display:none!important}
+.composer-settings{justify-content:flex-end!important;padding:0 18px 18px!important}
+.composer-settings>.generate{min-width:190px!important}
+.generation-status{border-top:1px solid #33372a!important}
+#simple-chips{display:flex;flex-wrap:wrap;gap:7px;padding:0 22px 18px}
+#simple-chips button{border:1px solid #3b4031;background:transparent;color:#aeb49e;border-radius:999px;padding:8px 11px;font-size:10px}
+#simple-chips button:hover{color:var(--lime);border-color:#6f8050}
+#quick-offer{margin:22px 0 52px;border:1px solid #465038;border-radius:10px;background:#1b1e16;overflow:hidden}
+.quick-top{padding:26px 28px 22px;display:grid;grid-template-columns:1.25fr .7fr 1fr;gap:30px;align-items:start}
+.quick-eyebrow{font-size:8px;letter-spacing:1.5px;color:var(--lime);margin-bottom:11px}
+.quick-top h2{font-size:34px;line-height:1.04;letter-spacing:-1.8px;margin:0;font-weight:500}
+.quick-price{border-left:1px solid #3a4030;padding-left:26px}
+.quick-price strong{font-size:58px;line-height:.9;letter-spacing:-4px;color:var(--lime);display:block}
+.quick-price span{font-size:10px;letter-spacing:1.2px;display:block;margin-top:8px}
+.quick-price small{display:block;color:#858d77;font-size:9px;line-height:1.5;margin-top:17px}
+.quick-copy p{font-size:12px;line-height:1.65;color:#aeb59f;margin:0 0 14px}
+.quick-copy ul{list-style:none;padding:0;margin:0 0 18px}
+.quick-copy li{font-size:10px;padding:7px 0;border-top:1px solid #34392c}
+.quick-copy li:last-child{border-bottom:1px solid #34392c}
+.quick-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.quick-primary{background:var(--lime);border:0;color:#17200b;border-radius:5px;padding:12px 14px;font-size:11px;font-weight:700}
+.quick-link{font-size:10px;color:#a8b093;text-decoration:underline;text-underline-offset:4px}
+.quick-note{border-top:1px solid #34392c;padding:12px 28px;font-size:9px;color:#747d68;display:flex;justify-content:space-between;gap:20px}
+.gallery-section{padding-top:12px!important}
+.gallery-heading{margin-bottom:20px!important}
+.gallery-heading .eyebrow{font-size:8px!important}
+.gallery-heading h2{font-size:33px!important}
+.search-wrap,.filter-row{display:none!important}
+.gallery{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+.site-card:nth-child(n+4){display:none!important}
+.footer{margin-top:48px!important}
+#simple-how{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:58px 0 0}
+.simple-how-head{padding:35px 0 22px}
+.simple-how-head span{font-size:8px;letter-spacing:1.5px;color:#848d75}
+.simple-how-head h2{font-size:42px;letter-spacing:-2px;margin:10px 0 0;font-weight:500}
+.simple-steps{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+.simple-step{padding:25px 22px 30px;border-right:1px solid var(--line)}
+.simple-step:last-child{border-right:0}
+.simple-step b{font-family:Georgia,serif;font-size:21px;color:var(--lime);font-weight:400}
+.simple-step h3{font-size:16px;margin:24px 0 9px}
+.simple-step p{font-size:11px;line-height:1.65;color:#858e77;margin:0}
+.preview-toolbar .segmented,#copy-source{display:none!important}
+.remix-panel{display:none!important}
+#money-preview{padding:14px 18px;border-top:1px solid var(--line);background:#1c2016;display:flex;justify-content:space-between;align-items:center;gap:18px}
+.money-preview-copy{display:flex;flex-direction:column;gap:4px}
+.money-preview-copy span{font-size:8px;letter-spacing:1.4px;color:var(--lime)}
+.money-preview-copy strong{font-size:12px}
+.money-preview-copy small{font-size:9px;color:#858d77}
+.money-preview-button{background:var(--lime);color:#17200b;border:0;border-radius:5px;padding:11px 14px;font-size:11px;font-weight:700;white-space:nowrap}
+@media(max-width:1220px){.topbar,.content{padding-left:28px!important;padding-right:28px!important}.quick-top{grid-template-columns:1fr 1fr}.quick-copy{grid-column:1/-1}}
+@media(max-width:800px){.gallery{grid-template-columns:1fr 1fr!important}.simple-steps{grid-template-columns:1fr}.simple-step{border-right:0;border-bottom:1px solid var(--line)}.simple-step:last-child{border-bottom:0}}
+@media(max-width:600px){.topbar{padding-left:18px!important;padding-right:18px!important}.content{padding-left:18px!important;padding-right:18px!important}.hero{padding-top:42px!important}.hero h1{font-size:54px!important;letter-spacing:-3.3px!important}.hero p{font-size:13px!important}.composer{margin-top:30px!important}textarea{font-size:15px!important}.composer-settings>.generate{width:100%;min-width:0!important}.quick-top{grid-template-columns:1fr;padding:22px}.quick-price{border-left:0;padding-left:0}.quick-price strong{font-size:54px}.quick-note{padding:12px 22px;flex-direction:column;gap:5px}.gallery{grid-template-columns:1fr!important}.simple-how-head h2{font-size:34px}#money-preview{align-items:flex-start;flex-direction:column}.money-preview-button{width:100%}}
